@@ -12,9 +12,9 @@ body
 h1
 {
 	font-size: 38px;
-	line-height: 1.1em;
+	line-height: 0.9em;
 	letter-spacing: 3px;
-	margin: 40px 0 0 0;
+	margin: 40px 0 20px 0;
 /*	
 	margin: 0;
 	padding-top: 120px;
