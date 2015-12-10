@@ -59,6 +59,11 @@ nav ul li
 	text-transform: uppercase;
 }
 
+nav ul li:first-child
+{
+	padding: 10px 20px;
+}
+
 nav ul li:last-child
 {
 	margin: 0;
@@ -249,9 +254,26 @@ footer ul li span
 
 @media screen and (max-width: 480px)
 {
+	nav {
+		text-align: center;
+		padding-right: 0;
+	}
+	
+	nav ul li {
+		margin-right: 10px;
+	}
+
 	#about
 	{
 		padding: 0 40px;
+	}
+	
+	h1 {
+		font-size: 32px;
+	}
+
+	h2 {
+		font-size: 16px;
 	}
 }
 
